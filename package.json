@@ -4,6 +4,7 @@
   "description": "NodeJS Twitter Bot",
   "main": "app.js",
   "scripts": {
+    "start": "node post-tweet.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/BEllis0/twitter_bot#readme",
   "dependencies": {
+    "twit": "^2.2.11",
     "twitter": "^1.7.1"
   }
 }

@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Date to Hex Color</title>
+        <title>Twitter Bot</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -19,17 +19,17 @@
 
     <body>
 
-        <div class="banner">
+        <form id="updateTweet">
 
-            <h1 id="test" class="center"></h1>
-            <h1 id="title"></h1>
-            <button class="btn btn-primary">Refresh Page</button>
+            <label id="tweet-label" for="tweetText">Post a Tweet</label>
+            <input type="text" id="tweetText" maxlength="140">
+            <input id="submitTweet" type="button" value="Tweet">
 
-        </div>
+        </form>
 
 
         <!--jquery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="/Users/brandonellis/Documents/Code Projects/twitter_bot/jquery.js"></script>
+        <script src="/Users/brandonellis/Documents/Code Projects/twitter_bot/tweet.js"></script>
     </body>
 </html>
