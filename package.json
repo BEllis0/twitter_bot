@@ -19,6 +19,10 @@
   "homepage": "https://github.com/BEllis0/twitter_bot#readme",
   "dependencies": {
     "twit": "^2.2.11",
-    "twitter": "^1.7.1"
+    "twitter": "^1.7.1",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.40.2"
   }
 }

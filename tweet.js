@@ -1,3 +1,5 @@
+var unique = require('uniq');
+
 let Twitter = require('twitter');
 let config = require('/Users/brandonellis/Documents/Code Projects/twitter_bot/config.js');
 
@@ -18,11 +20,11 @@ $(function(){
 
         console.log(tweet.status);
         
-        // T.post('statuses/update', tweet, function(err, data, response) {
-        //     if (err) {
-        //         console.log(err);
-        //     }
-        // })
+        T.post('statuses/update', tweet, function(err, data, response) {
+            if (err) {
+                console.log(err);
+            }
+        })
 
         
     });
@@ -36,11 +38,11 @@ $(function(){
             status: statusUpdate
         }
         console.log(tweet.status);
-        // T.post('statuses/update', tweet, function(err, data, response) {
-        //     if (err) {
-        //         console.log(err);
-        //     }
-        // })
+        T.post('statuses/update', tweet, function(err, data, response) {
+            if (err) {
+                console.log(err);
+            }
+        })
         
     });
     
