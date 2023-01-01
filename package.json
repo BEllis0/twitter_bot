@@ -23,6 +23,6 @@
     "uniq": "^1.0.1"
   },
   "devDependencies": {
-    "webpack": "^4.40.2"
+    "webpack": "^5.75.0"
   }
 }
